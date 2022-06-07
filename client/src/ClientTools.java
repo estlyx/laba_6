@@ -240,6 +240,7 @@ public class ClientTools {
 
 
     public void go() throws IOException, ClassNotFoundException {
+        System.out.println("Введите help, чтобы увидеть доступные команды");
         while (true) {
             Boolean f = true;
             String commandName = in.nextLine();
